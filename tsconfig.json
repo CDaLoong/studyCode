@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable", // dom 可以使用 for of 循环
+      "esnext" // 更加新的 ES 版本
+    ],
+    "allowJs": true, // 允许与 js 代码进行交互
+    "skipLibCheck": true,
+    "esModuleInterop": true, // 开启 es6 模块化与非 es6 模块交互
+    "allowSyntheticDefaultImports": true,
+    "strict": true, // 是否开启严格检查
+    "forceConsistentCasingInFileNames": true, // 是否区分大小写引用
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext", // 最新版本的模块化标准，允许动态导入
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "removeComments": true
+  }
+}
